@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Aamber Freight</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Work+Sans:wght@300;400;500;600&display=swap"
+            rel="stylesheet"
+        />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script>
+            tailwind.config = {
+                theme: {
+                    extend: {
+                        fontFamily: {
+                            display: ["Fraunces", "Georgia", "serif"],
+                            body: ["Work Sans", "Avenir Next", "sans-serif"],
+                        },
+                        colors: {
+                            pine: {
+                                50: "#eef4ef",
+                                100: "#d7e2dc",
+                                200: "#c3d2cc",
+                                300: "#b7c7c0",
+                                600: "#2e4b40",
+                                700: "#1b2421",
+                            },
+                        },
+                        boxShadow: {
+                            glass: "0 30px 70px rgba(9, 20, 16, 0.2)",
+                        },
+                    },
+                },
+            };
+        </script>
+    </head>
+    <body class="min-h-screen bg-[#eef2ee] font-body text-slate-900">
+        <main>
+            <section class="mx-auto w-full max-w-6xl px-6 pb-16 pt-10 sm:pt-14">
+                <div class="w-full">
+                    <img
+                        src="assets/logo.png"
+                        alt="Aamber Freight logo"
+                        class="h-auto w-full"
+                    />
+                </div>
+
+                <div
+                    class="mt-6 grid gap-6 lg:grid-cols-[minmax(0,1.2fr)_minmax(0,1fr)]"
+                >
+                    <div
+                        class="rounded-xl border border-white/40 bg-white/80 p-6 shadow-xl backdrop-blur"
+                    >
+                        <h1
+                            class="font-display text-4xl text-pine-700 sm:text-5xl"
+                        >
+                            Aamber Freight
+                        </h1>
+                        <p class="mt-2 text-lg font-medium text-pine-700">
+                            Kosher-Certified Food-Grade Liquid Transportation
+                            &amp; Transfer
+                        </p>
+
+                        <h2 class="mt-8 font-display text-2xl text-pine-700">
+                            Company Overview
+                        </h2>
+                        <p class="mt-4 text-base text-slate-700 sm:text-lg">
+                            Aamber Freight specializes in the safe, compliant,
+                            and efficient transportation and transfer of kosher,
+                            food-grade liquid products. With 9 years of
+                            operational experience, we support food
+                            manufacturers, processors, and distributors with
+                            reliable tanker transport solutions designed to
+                            protect product integrity and meet strict quality
+                            standards.
+                        </p>
+
+                        <div
+                            class="mt-8 rounded-lg bg-white/70 p-4 text-slate-700 shadow-md"
+                        >
+                            <p
+                                class="text-sm uppercase tracking-[0.25em] text-pine-600"
+                            >
+                                Contact
+                            </p>
+                            <p class="mt-3 font-semibold text-slate-800">
+                                AJ Carauskas
+                            </p>
+                            <p>312-933-0113</p>
+                            <p>Aamberfreight@gmail.com</p>
+                        </div>
+                    </div>
+
+                    <div class="space-y-6">
+                        <article
+                            class="rounded-xl border border-white/40 bg-white/75 p-6 shadow-xl backdrop-blur"
+                        >
+                            <h2 class="font-display text-2xl text-pine-700">
+                                What We Do
+                            </h2>
+                            <ul
+                                class="mt-4 list-disc space-y-2 pl-5 text-slate-700"
+                            >
+                                <li>
+                                    Bulk liquid transportation of kosher,
+                                    food-grade products
+                                </li>
+                                <li>
+                                    On-site liquid transfer using tanker-mounted
+                                    pump systems
+                                </li>
+                                <li>
+                                    Dedicated and spot freight service options
+                                </li>
+                                <li>Regional and long-haul coverage</li>
+                            </ul>
+                        </article>
+
+                        <article
+                            class="rounded-xl border border-white/40 bg-white/75 p-6 shadow-xl backdrop-blur"
+                        >
+                            <h2 class="font-display text-2xl text-pine-700">
+                                Products We Commonly Handle
+                            </h2>
+                            <ul
+                                class="mt-4 list-disc space-y-2 pl-5 text-slate-700"
+                            >
+                                <li>
+                                    Oils (vegetable, specialty, and cooking
+                                    oils)
+                                </li>
+                                <li>Syrups and sweeteners</li>
+                                <li>Juice concentrates and beverage bases</li>
+                                <li>Dairy and dairy alternatives</li>
+                                <li>
+                                    Other kosher, food-grade liquid ingredients
+                                </li>
+                            </ul>
+                        </article>
+
+                        <article
+                            class="rounded-xl border border-white/40 bg-gradient-to-br from-pine-50/90 to-white/80 p-6 shadow-xl backdrop-blur"
+                        >
+                            <h2 class="font-display text-2xl text-pine-700">
+                                Why Aamber Freight
+                            </h2>
+                            <ul
+                                class="mt-4 list-disc space-y-2 pl-5 text-slate-700"
+                            >
+                                <li>Kosher-compliant operations</li>
+                                <li>Food-grade equipment</li>
+                                <li>Pump-equipped fleet</li>
+                                <li>9 years proven reliability</li>
+                                <li>Responsive, direct communication</li>
+                            </ul>
+                        </article>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="pb-10 text-center text-xs text-slate-500">
+            Aamber Freight — Kosher-Certified Food-Grade Liquid Transportation
+            &amp; Transfer
+        </footer>
+    </body>
+</html>
